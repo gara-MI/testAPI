@@ -1,0 +1,23 @@
+{
+  "name": "gcloud",
+  "version": "1.0.0",
+  "description": "This is Test to deploy to GCloud",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npm start",
+    "nodemon": "nodemon --exec npm run dev",
+    "test": "./node_modules/.bin/mocha --exit --reporter spec --timeout 15000"
+  },
+  "author": "Ganji Rama Rao",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.9"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "request": "^2.87.0"
+  }
+}
