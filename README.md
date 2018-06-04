@@ -5,3 +5,6 @@ Install and testing:<br />
 `npm install`<br />
 `npm start`<br />
 `npm test`<br />
+Running with docker-compose:<br/>
+`docker-compose up -d` <br/>
+`docker-compose down` <br/>
