@@ -20,8 +20,6 @@ services:
       - ./app:/src/app
     ports:
       - "8080:3000"
-    links:
-      - mongodb
     depends_on:
       - mongodb
     command: ["./wait-for-it.sh", "mongodb:27017", "--","node", "app/index.js"]
